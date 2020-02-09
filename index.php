@@ -1,119 +1,35 @@
 <?php include 'header.php' ?>
 
 
-<!--slider-part-->
+<!--Banner-slider-->
 
 
 <section class="banner">
 	<div class="home-slider">
-		<div class="contents" style="background-image: url(images/bg1.jpg)">
-			<div class="caption ">
+		<div class="contents" style="background-image: url(images/banner2.jpg)">
+		<div class="caption ">
 				<h2>Be Entrepreneur</h2>
 				<strong>Be Yourself Be Independent</strong>
 			</div>
 		</div>
-		<div class="contents" style="background-image: url(images/bg2.jpg)">
-			<div class="caption ">
-				<h2>उद्यमी बनौ, आत्मनिर्भर बनौ</h2>
-				<strong>परिवर्तनको सुरुवात आफैबाट…</strong>
+		<div class="contents" style="background-image: url(images/banner1.png)">
+		<div class="caption ">
+				<h2>Be Entrepreneur</h2>
+				<strong>Be Yourself Be Independent</strong>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!-- trending demand  -->
-
-<section class="trending-demand">
-	<div class="container-fluid no-pad">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="trend-wrap">
-					<div class="trending-block">
-						<h2> Trending Demand</h2>
-					</div>
-
-					<div class="trending-carosel">
-						<div class="trending-wrapper">
-							<a href="demand-achive.php">
-								<div class="tending-image">
-									<img src="images/trend1.png" alt="">
-								</div>
-								<div class="trend-detail">
-									<div class="trend-title">
-										waiter-Restaurant
-									</div>
-									<span>UAE | waiter-Restaurant</span>
-								</div>
-							</a>
-						</div>
-						<div class="trending-wrapper">
-							<a href="demand-achive.php">
-								<div class="tending-image">
-									<img src="images/trend2.png" alt="">
-								</div>
-								<div class="trend-detail">
-									<div class="trend-title">
-										Security Guard for UAE.
-									</div>
-									<span>UAE | waiter-Restaurant</span>
-								</div>
-							</a>
-						</div>
-						<div class="trending-wrapper">
-							<a href="demand-achive.php">
-								<div class="tending-image">
-									<img src="images/trend3.png" alt="">
-								</div>
-								<div class="trend-detail">
-									<div class="trend-title">
-										Public Car Driver
-									</div>
-									<span>Saudi Arabia. | waiter-Restaurant</span>
-								</div>
-							</a>
-						</div>
-						<div class="trending-wrapper">
-							<a href="demand-achive.php">
-								<div class="tending-image">
-									<img src="images/trend1.png" alt="">
-								</div>
-								<div class="trend-detail">
-									<div class="trend-title">
-										waiter-Restaurant
-									</div>
-									<span>UAE | waiter-Restaurant</span>
-								</div>
-							</a>
-						</div>
-						<div class="trending-wrapper">
-							<a href="demand-achive.php">	
-								<div class="tending-image">
-									<img src="images/trend2.png" alt="">
-								</div>
-								<div class="trend-detail">
-									<div class="trend-title">
-										Security Guard for UAE.
-									</div>
-									<span>UAE | waiter-Restaurant</span>
-								</div>
-							</a>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <!--about-us-section-->
 
 <section class="about-part padding">
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
+			<div class="col-lg-6 col-md-6 col-12">
 				<div class="head-title">
 					<h2>
-						aL haya recruitment
+						Changing Nepal
 					</h2>
 				</div>
 				<div class="about-det ">
@@ -178,7 +94,7 @@
 			<div class="col-12 col-md-4">
 				<div class="icon_box_wrapper">
 					<div class="icon_image">
-					<i class="fas fa-paper-plane"></i>
+						<i class="fas fa-paper-plane"></i>
 					</div>
 					<h4 class="title">Travel Management</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -213,7 +129,7 @@
 							<img src="images/demand1.jpg" alt="">
 						</div>
 						<div class="demand-detail">
-							<a href="#"	>
+							<a href="#">
 								<h3>Waiter for UAE.</h3>
 							</a>
 							<ul>
@@ -227,7 +143,7 @@
 							<img src="images/demand2.jpg" alt="">
 						</div>
 						<div class="demand-detail">
-							<a href="#"	>
+							<a href="#">
 								<h3>Security Guard for UAE.</h3>
 							</a>
 							<ul>
@@ -241,7 +157,7 @@
 							<img src="images/demand3.jpg" alt="">
 						</div>
 						<div class="demand-detail">
-							<a href="#"	>
+							<a href="#">
 								<h3>Cook for UAE.</h3>
 							</a>
 							<ul>
@@ -271,7 +187,7 @@
 </section>
 
 <!-- message from  -->
-<section class="message-part padding">	
+<section class="message-part padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6">
@@ -291,15 +207,15 @@
 						<p> (Managing Director)</p>
 					</div>
 					<div class="message">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam.
-					</p>
-				</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
 				</div>
 			</div>
 			<div class="col-12 col-md-6">
@@ -319,17 +235,17 @@
 						<p> (Managing Director)</p>
 					</div>
 					<div class="message">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam.
-					</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam, quis.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
 				</div>
-				</div>
-				
+
 			</div>
 		</div>
 	</div>
@@ -440,7 +356,7 @@
 						<h4>Lorem ipsum dolor sit amet </h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit
 							voluptatem accusantium doloremque </p>
-							<button class="btn btn-1 btn-1c" href='blog.php'>Read more <i class="icon-angle-right"></i></button>
+						<button class="btn btn-1 btn-1c" href='blog.php'>Read more <i class="icon-angle-right"></i></button>
 					</div>
 				</div>
 			</div>
@@ -453,7 +369,7 @@
 						<h4>Lorem ipsum dolor sit amet </h4>
 						<p>Sed ut perspiciatis unde omnis iste natus error sit
 							voluptatem accusantium doloremque </p>
-							<button class="btn btn-1 btn-1c" href='blog.php'>Read more <i class="icon-angle-right"></i></button>
+						<button class="btn btn-1 btn-1c" href='blog.php'>Read more <i class="icon-angle-right"></i></button>
 					</div>
 				</div>
 			</div>

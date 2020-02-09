@@ -18,15 +18,11 @@
   <title> changing Nepal </title>
 </head>
 <header>
-  <div class="header-top">
+  <!-- <div class="header-top">
     <div class="container">
       <div class="row">
       <div class="col-lg-3 col-md-3 col-12 ">
-          <div class="header-logo">
-            <a href="index.php" class="navbar-brand">
-              <img src="images/logo.png" alt="">
-            </a>
-          </div>
+          
         </div>
         <div class="col-lg-9 col-md-9 col-12 first">
           <div class="side-nav">
@@ -57,13 +53,18 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="header-content">
     <div class="container">
       <div class="row">
         <div class=" col-lg-12">
           <nav class="navbar navbar-expand-md scrolling-navbar ">
             <div class="navbar-header">
+              <div class="header-logo">
+                <a href="index.php" class="navbar-brand">
+                  <img src="images/logo.png" alt="">
+                </a>
+              </div>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
               </button>
@@ -101,11 +102,6 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.php">
-                    contact us
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
                     contact us
                   </a>
                 </li>

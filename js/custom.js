@@ -1,49 +1,15 @@
-/* home slider*/
+// home slider
 $(document).ready(function(){
   $('.home-slider').slick({
      autoplay: false,
      autoplaySpeed: 2000,
-     dots: true,
-     arrows:false
+     dots: false,
+     arrows:true,
+     nextArrow: '<i class="fas fa-chevron-right right"></i>',
+  prevArrow: '<i class="fas fa-chevron-left left"></i>'
   });
 });
 
-//trending carousel//
-$(document).ready(function(){
-  $('.trending-carosel').slick({
-     autoplay:true,
-    autoplaySpeed:2000,
-    speed: 300,
-    arrows:false,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
-});
-  });
 
 
   //demand carousel//
