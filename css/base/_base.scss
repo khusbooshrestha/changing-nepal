@@ -1,13 +1,15 @@
-.row{
+.row {
   width: 100%;
 }
 body {
-  font-size: 14px;
   font-family: $font;
-  line-height: 22px;
-  background: #fff;
-  background-attachment: fixed;
-  background-image: url("../images/prism.svg");
+  text-align: left;
+  font-size: 15px;
+  color: #202020;
+  line-height: 24px;
+  // background-color: #fff;
+  // background-attachment: fixed;
+  // background-image: url("../images/prism.svg");
   .form-control {
     &:focus {
       -webkit-box-shadow: none;
@@ -31,10 +33,10 @@ body {
     @include transition(all, 0.5s, ease-in-out);
     &:hover {
       text-decoration: none;
-      color:$green;
+      color: $green;
     }
   }
-  p{
+  p {
     text-align: justify;
     line-height: 28px;
     color: #211f1f;
@@ -69,7 +71,18 @@ body {
     }
   }
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font;
 }
 .btn {
@@ -79,7 +92,7 @@ body {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 7px 15px;
+  padding: 10px 20px;
   display: inline-block;
   margin: 0px;
   text-transform: uppercase;
@@ -93,16 +106,16 @@ body {
 }
 
 .btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 /* Button 1c */
 .btn-1 {
-  border:1px solid $blue;
+  border: 1px solid $blue;
   color: $blue;
   z-index: 1;
   &:after {
@@ -113,48 +126,53 @@ body {
     background: $green;
     z-index: -1;
   }
-  &:hover,:active {
-  color: #fff;
-  border:1px solid $green;
+  &:hover,
+  :active {
+    color: #fff;
+    border: 1px solid $green;
+  }
 }
-}
-
-
 
 .btn-1c:hover:after,
 .btn-1c:active:after {
-	width: 100%;
+  width: 100%;
 }
-.head-title {
-    margin-bottom: 40px;
-    text-align: center;
-    h2{
-      position: relative;
-      display: inline-block;
-      margin: 0px;
-      text-transform: capitalize;
-      font-size: 25px;
-      color: #000000cf;
-      font-weight: 700;
-      padding-left: 10px;
-      &:before{
-        content: "";
-        bottom: -10px;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 2px;
-        width: 40%;
-        position: absolute;
-        background: #ffb200;
-      }
+.head-box {
+  text-align: left;
+  font-family: $font;
+  margin-bottom: 20px;
+  span {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $green;
+    position: relative;
+    padding-left: 80px;
+    color: orange;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -5px;
+      width: 80px;
+      height: 1px;
+      background-color: $orange;
     }
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    margin: 20px 0;
+    color: #000;
+  }
 }
-.no-pad{
-  padding:0;
+.no-pad {
+  padding: 0;
 }
-.padding{
-  padding:50px;
+.padding {
+  padding: 50px;
 }
-:focus{
-  outline:none;
+:focus {
+  outline: none;
 }
