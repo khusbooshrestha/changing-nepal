@@ -6,13 +6,13 @@
 
 <section class="banner">
 	<div class="home-slider">
-		<div class="contents" style="background-image: url(images/banner2.jpg)">
+		<div class="contents" style="background-image: url(images/bg1.jpg)">
 			<div class="caption ">
 				<h2>Be Entrepreneur</h2>
 				<strong>Be Yourself Be Independent</strong>
 			</div>
 		</div>
-		<div class="contents" style="background-image: url(images/banner1.png)">
+		<div class="contents" style="background-image: url(images/bg2.jpg)">
 			<div class="caption ">
 				<h2>Be Entrepreneur</h2>
 				<strong>Be Yourself Be Independent</strong>
@@ -204,7 +204,7 @@
 	</div>
 </section>
 
-<section class="client-testimonial padding" style="background-image:url(images/bg2.jpg)">
+<section class="client-testimonial" style="background-image:url(images/bg2.jpg)">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -232,76 +232,5 @@
 </section>
 
 
-<!-- team member -->
-<!-- 
-<section class="team padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="head-title">
-					<h2>
-						Our team
-					</h2>
-				</div>	
-				<div class="team-carousel">
-				<div class="team-wrapper">
-					<div class="team-image">
-						<img src="images/team1.jpg" alt="">
-						<div class="team-detail">
-						<h3>Sankalp Adhikari</h3>
-						<strong>
-							CEO
-						</strong>
-					</div>
-					</div>
-				</div>
-				<div class="team-wrapper">
-					<div class="team-image">
-						<img src="images/team2.jpg" alt="">
-					</div>
-					<div class="team-detail">
-						<h3>Sankalp Adhikari</h3>
-						<strong>
-							CEO
-						</strong>
-					</div>
-				</div>
-				<div class="team-wrapper">
-					<div class="team-image">
-						<img src="images/team1.jpg" alt="">
-					</div>
-					<div class="team-detail">
-						<h3>Sankalp Adhikari</h3>
-						<strong>
-							CEO
-						</strong>
-					</div>
-				</div>
-				<div class="team-wrapper">
-					<div class="team-image">
-						<img src="images/team4.jpg" alt="">
-					</div>
-					<div class="team-detail">
-						<h3>Sankalp Adhikari</h3>
-						<strong>
-							CEO
-						</strong>
-					</div>
-				</div>
-				<div class="team-wrapper">
-					<div class="team-image">
-						<img src="images/team5.jpg" alt="">
-					</div>
-					<div class="team-detail">
-						<h3>Sankalp Adhikari</h3>
-						<strong>
-							CEO
-						</strong>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
 
 <?php include 'footer.php' ?>
