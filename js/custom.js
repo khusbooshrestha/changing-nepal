@@ -131,3 +131,34 @@ $(document).ready(function(){
   ]
 });
   });
+
+//product vertical slide sync 
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav',
+   autoplay: false,
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: false,
+  centerMode: true,
+  vertical:true,
+  focusOnSelect: true,
+  autoplay: false,
+
+});
+
+
+// using drift.js for zoom
+var demoTrigger = document.querySelector('.product-zoom-image');
+var paneContainer = document.querySelector('.product-detail-text');
+
+new Drift(demoTrigger, {
+  paneContainer: paneContainer,
+  inlinePane: false,
+});

@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/ drift.css">
+
+ 
   <title> changing Nepal </title>
 </head>
 <header>
@@ -84,7 +87,7 @@
 
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link " href="blog-archive.php">
+                  <a class="nav-link " href="product-archive.php">
                     Our product
                   </a>
 
