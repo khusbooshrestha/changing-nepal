@@ -137,6 +137,10 @@
 		box-shadow: 3px 4px 3px 0px #808080bf;
 	}
 
+	.team-inner:hover .team-text h6::after{
+		border: 1px solid #6eb354;
+	}
+
 	.team-inner img {
 		border-radius: 75px;
 		padding: 12px 16px;
@@ -157,11 +161,12 @@
 		position: absolute;
 		content: '';
 		border: 1px solid #00a7e2;
-		width: 25%;
+		width: 30%;
 		margin: 0 auto;
 		left: 0;
 		right: 0;
 		bottom: -5px;
+		transition: linear 0.4s;
 	}
 
 	.team-text p {

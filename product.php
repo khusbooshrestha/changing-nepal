@@ -5,17 +5,17 @@
 		outline: none;
 	}
 	.product-side-image img {
-		width: 170px;
-		height: 140px;
+		width: 100px;
+		height: 100px;
 		box-shadow: 1px 5px 5px 0px #808080bf;
 		border: 1px solid #8080806b;
 	}
-
 	.product-zoom-image img {
 		width: 100%;
 		height: 426px;
 		box-shadow: 1px 5px 5px 0px #808080bf;
 		border: 1px solid #8080806b;
+		margin-left: 20px;
 	}
 	.product-detail-image .slider-for{
 		width: 500px;
@@ -30,8 +30,10 @@
 		overflow: hidden;
 	}
 
-	.youtube-video{
-		margin-top: -130px;
+	.youtube-video iframe{
+		margin-top: 40px;
+		width: 620px;
+		height: 315px;
 	}
 
 	.process-list{
@@ -84,10 +86,10 @@
 	<section class="products-section padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8">
+				<div class="col-lg-7">
 					<div class="product-detail-image">
 						<div class="row">
-							<div class="col-lg-3 col-md-3 col-12">
+							<div class="col-lg-2 col-md-3 col-12">
 								<div class="slider-nav">
 									<div class="product-side-image">
 										<img src="images/socks-machine.jpg">
@@ -100,26 +102,26 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-9 col-md-9 col-12">
+							<div class="col-lg-10 col-md-9 col-12">
 								<div class="slider-for">
 									<div class="product-zoom-image">
-										<img src="images/socks-machine.jpg">
+										<img src="images/socks-machine.jpg" data-magnify-src="images/socks-machine.jpg">
 									</div>
 									<div class="product-zoom-image">
-										<img src="images/socks-knitting-machine.jpg">
+										<img src="images/socks-knitting-machine.jpg" data-magnify-src="images/socks-knitting-machine.jpg">
 									</div>
 									<div class="product-zoom-image">
-										<img src="images/socks-ironing-machine.jpg">
+										<img src="images/socks-ironing-machine.jpg" data-magnify-src="images/socks-ironing-machine.jpg">	
 									</div>
 								</div>
 							</div>
 							<div class="youtube-video">
-								<iframe width="725" height="315" src="https://www.youtube.com/embed/F7M9vhOngN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe src="https://www.youtube.com/embed/F7M9vhOngN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-5">
 					<div class="product-detail-text">
 						<h5>Socks Making Machine</h5>
 						<ul class="process-list">

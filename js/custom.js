@@ -154,11 +154,7 @@ $('.slider-nav').slick({
 });
 
 
-// using drift.js for zoom
-var demoTrigger = document.querySelector('.product-zoom-image');
-var paneContainer = document.querySelector('.product-detail-text');
-
-new Drift(demoTrigger, {
-  paneContainer: paneContainer,
-  inlinePane: false,
+// magnify image for product
+$(document).ready(function() {
+  $('img').magnify();
 });

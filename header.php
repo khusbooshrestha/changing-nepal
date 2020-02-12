@@ -15,9 +15,8 @@
   <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/ drift.css">
+  <link rel="stylesheet" href="css/magnify.css">
 
- 
   <title> changing Nepal </title>
 </head>
 <header>
