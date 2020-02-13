@@ -1,9 +1,5 @@
 <?php include 'header.php' ?>
-
-
 <!--Banner-slider-->
-
-
 <section class="banner">
 	<div class="home-slider">
 		<div class="contents" style="background-image: url(images/bg1.jpg)">

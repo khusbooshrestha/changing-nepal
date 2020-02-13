@@ -1,50 +1,4 @@
 <?php include 'header.php' ?>
-<style type="text/css">
-	.products .product-box .product-image img {
-		width: 100%;
-		height: 200px;
-	}
-	.products .product-box .product-detail {
-		padding: 10px;
-		border: 1px solid #acacac21;
-		min-height: 75px;
-	}
-	.products .product-box {
-		transition: all 0.5s linear;
-		-webkit-transition: all 0.5s linear;
-		-moz-transition: all 0.5s linear;
-		box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.08);
-		-webkit-box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.08);
-		-moz-box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.08);
-		margin: 10px;
-		background-color: #fff;
-	}
-	.products .product-box .product-detail {
-		padding: 10px;
-		border: 1px solid #acacac21;
-		min-height: 75px;
-	}
-
-	.products .product-box a{
-		font-family: "Lato", sans-serif;
-		text-align: left;
-		font-size: 15px;
-		color: #202020;
-		line-height: 24px;
-	}
-	.products .product-box a:hover {
-		text-decoration: none;
-		color: #49ad22;
-	}
-	.products .product-box .product-detail h4 {
-		text-transform: capitalize;
-		font-size: 18px;
-	}
-
-
-</style>
-
-
 <section class="inner-banner" style="background-image: url(images/bg2.jpg);">
 	<div class="container">
 		<div class="banner-bread">
@@ -60,9 +14,6 @@
 		</div>
 	</div>
 </section>
-
-
-
 <div class="products-listing">
 	<section class="products padding">
 		<div class="container">

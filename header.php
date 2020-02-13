@@ -12,50 +12,13 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/lightbox.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/magnify.css">
 
   <title> changing Nepal </title>
 </head>
 <header>
-  <!-- <div class="header-top">
-    <div class="container">
-      <div class="row">
-      <div class="col-lg-3 col-md-3 col-12 ">
-          
-        </div>
-        <div class="col-lg-9 col-md-9 col-12 first">
-          <div class="side-nav">
-            <ul>
-              <li>
-              <img src="images/clock.png" alt="">
-            <a href="#">
-              <strong>Phone Number</strong>
-              9851131427 / 9840196002
-            </a>
-              </li>
-              <li>
-              <img src="images/pinu.png" alt="">
-            <a href="#">
-              <strong>Our location</strong>
-              Balkot, Kaushaltar, Kathmandu
-            </a>
-              </li>
-              <li>
-              <img src="images/maili.png" alt="">
-            <a href="#">
-              <strong>Our Email</strong>
-             sales@changingnepal.com.np
-            </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <div class="header-content">
     <div class="container">
       <div class="row">
@@ -114,5 +77,4 @@
       </div>
     </div>
 </header>
-
 <body>

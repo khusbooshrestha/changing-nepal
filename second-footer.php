@@ -89,6 +89,7 @@
 <script src="js/slick.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/lightbox.min.js"></script>
+<script src="js/jquery.magnify.js"></script>
 </body>
 
 </html
